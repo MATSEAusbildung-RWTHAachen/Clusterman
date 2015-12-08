@@ -1,6 +1,6 @@
 # Clusterman
 
-Clusterman is an open source Python code (Python scipy) program which stitches and evaluates images. It was based on the work of [Minwegen 2014] and made to evaluate micrographs of semisolid metal alloys, but can be adapted and used to evaluate all particle systems. The following parameters are analysed:
+Clusterman is an open source Python code (Python scipy) program which stitches and evaluates images. This program was developed by Mario Grunwald during the training as Mathematical-technical software developer (MATSE). It was based on the work of [Minwegen 2014] and made to evaluate micrographs of semisolid metal alloys, but can be adapted and used to evaluate all particle systems. The following parameters are analysed:
 (1) solid fraction, (2) specific surface, (3) particle size, (4) shape factor of particles, (5) cluster area, (6) cluster circumference, (7) number of particles per cluster, (8) porosity of clusters and (9) shape factor of clusters.
 For 3-9 distributions of 15 classes are generated, and the relative frequency is calculated; further the distributions are fitted with log-normal distribution functions for which the mean value and standard deviation are given as output parameters.
 
@@ -34,3 +34,6 @@ To change the format of the output images, you could replace ".jpg" with some ot
 **Sources**:
 
 [Minwegen 2014] Minwegen, Heiko, Untersuchung der Ostwald-Reifung innerhalb eines Scherfeldes teilerstarrter Al-Cu-Legierungen mit geringen Feststoffanteilen - Investigation of Ostwald ripening in a shear field of semi solid Al-Cu-alloys in the low solid fraction regime, Diplomarbeit, Betreuer: M. Sc. Siri Harboe, Aachen, Juni 2014, Rheinisch-Westfälische Technische Hochschule Aachen, Aachener Verfahrenstechnik
+
+
+**License**: The MIT License (MIT)
